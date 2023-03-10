@@ -32,6 +32,12 @@ int main(int argc, char *argv[])
 
 		if ((cents - 10) >= 10)
 		{
+			cents -= 10;
+			continue;
+		}
+
+		if ((cents - 5) >= 0)
+		{
 			cents -= 5;
 			continue;
 		}
